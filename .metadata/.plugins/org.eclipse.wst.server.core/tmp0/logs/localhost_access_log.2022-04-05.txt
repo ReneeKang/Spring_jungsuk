@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:18:52 +0900] "GET /ch2/getYoilMVC.java?year=2021&month=10&day=1 HTTP/1.1" 200 42
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:18:54 +0900] "GET /ch2/getYoilMVC.java?year=2021&month=10&day=1 HTTP/1.1" 200 42
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:19:18 +0900] "GET /ch2/ HTTP/1.1" 200 164
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:19:47 +0900] "GET /ch2/getYoilMVC.java?year=2021&month=10&day=1 HTTP/1.1" 200 42
+127.0.0.1 - - [05/Apr/2022:00:27:55 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:27:55 +0900] "GET /ch2/ HTTP/1.1" 200 164
+127.0.0.1 - - [05/Apr/2022:00:30:56 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:30:56 +0900] "GET /ch2/ HTTP/1.1" 200 164
+127.0.0.1 - - [05/Apr/2022:00:31:29 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:31:29 +0900] "GET /ch2/WEB-INF/classes/com/fastcampus/ch2/YoilTellerMVC.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:31:47 +0900] "GET /ch2/getYoilMVC.java?year=2021&month=10&day=1 HTTP/1.1" 200 163
+127.0.0.1 - - [05/Apr/2022:00:32:47 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:32:48 +0900] "GET /ch2/WEB-INF/views/yoilError.jsp HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:33:01 +0900] "GET /ch2/WEB-INF/views/yoilError.jsp HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:33:07 +0900] "GET /ch2/WEB-INF/views/yoilError.jsp HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:33:08 +0900] "GET /ch2/WEB-INF/views/yoilError.jsp HTTP/1.1" 404 721
