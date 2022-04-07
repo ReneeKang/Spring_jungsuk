@@ -14,3 +14,12 @@
 0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:33:01 +0900] "GET /ch2/WEB-INF/views/yoilError.jsp HTTP/1.1" 404 721
 0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:33:07 +0900] "GET /ch2/WEB-INF/views/yoilError.jsp HTTP/1.1" 404 721
 0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:33:08 +0900] "GET /ch2/WEB-INF/views/yoilError.jsp HTTP/1.1" 404 721
+127.0.0.1 - - [05/Apr/2022:00:33:26 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:33:26 +0900] "GET /ch2/ HTTP/1.1" 200 164
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:33:31 +0900] "GET /ch2/getYoilMVC.java?year=2021&month=10&day=1 HTTP/1.1" 200 164
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:33:58 +0900] "GET /ch2/getYoilMVC.java?year=2021&month=10&day=1 HTTP/1.1" 200 164
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:34:00 +0900] "GET /ch2/getYoilMVC.java?year=2021&month=10&day=1 HTTP/1.1" 200 106
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:00:38:28 +0900] "GET /ch2/getYoilMVC.java?year=2021&month=10&day=1 HTTP/1.1" 200 116
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:17:10:54 +0900] "GET /ch2/getYoilMVC.java?year=2021&month=10&day=1 HTTP/1.1" 200 116
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:17:11:23 +0900] "GET /ch2/getYoilMVC.java?year=2021&month=10&day=1 HTTP/1.1" 200 116
+0:0:0:0:0:0:0:1 - - [05/Apr/2022:17:12:46 +0900] "POST /ch2/getYoilMVC.java?year=2021&month=10&day=1 HTTP/1.1" 200 116

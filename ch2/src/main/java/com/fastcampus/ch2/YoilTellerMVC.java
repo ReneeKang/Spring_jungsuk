@@ -56,8 +56,6 @@ public class YoilTellerMVC {// http://localhost:8080/ch2/getYoilMVC.java?year=20
 		char yoil = getYoil(year, month, day);
 
 		
-		
-		// 3. 출력
 		// 3. 계산한 결과를 model에 저장
 		model.addAttribute("year",year);
 		model.addAttribute("month",month);
