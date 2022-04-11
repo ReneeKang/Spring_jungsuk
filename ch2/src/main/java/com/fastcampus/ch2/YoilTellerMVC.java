@@ -1,15 +1,13 @@
 package com.fastcampus.ch2;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.Calendar;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 ////년원일을 입력하면 요일을 알려주는 프로그램
 //public class YoilTeller {
@@ -42,11 +40,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 //년원일을 입력하면 요일을 알려주는 프로그램
 @Controller
 public class YoilTellerMVC {// http://localhost:8080/ch2/getYoilMVC.java?year=2021&month=10&day=1
-
+	@ExceptionHandler(Exception.class)
+	public String catcher(Exception ex) {
+		ex.printStackTrace();
+		return "yoilError";
+	}
+	
 	@RequestMapping("/getYoilMVC")
 //	public void main(HttpServletRequest request,HttpServletResponse response) throws IOException{
 //		public void main(String year, String month, String day,HttpServletResponse response) throws IOException{
-	public String main(int year, int month, int day, Model model) throws IOException {
+	public String main(@RequestParam(required=true)int year, 
+						@RequestParam(required=true)int month, 
+						@RequestParam(required=true)int day, Model model) throws IOException {
 
 		// 1. 유효성 검사
 		if (!isValid(year, month, day))
