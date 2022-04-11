@@ -1,0 +1,6 @@
+package com.fastcampus.ch2;
+
+@Controller 
+public class RegisterController {
+
+}
