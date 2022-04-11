@@ -20,7 +20,7 @@ public class YoilTellerMVC4 {
 	}
 	
 	@RequestMapping("/getYoilMVC4")// http://localhost:8080/ch2/getYoilMVC4
-	public String main(MyDate date, Model model) throws IOException {
+	public String main(MyDate date, Model model){
 
 		// 1. 유효성 검사
 		if (!isValid(date))
