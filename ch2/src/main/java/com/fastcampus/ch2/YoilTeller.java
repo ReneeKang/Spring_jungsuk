@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 //년원일을 입력하면 요일을 알려주는 프로그램
 @Controller
-public class YoilTeller {
+public class YoilTeller { //  http://localhost:8080/ch2/getYoil?year=2021&month=10&day=1
 	@RequestMapping("/getYoil")
 	public static void main(HttpServletRequest request, HttpServletResponse response) throws IOException{
 		
@@ -24,7 +24,7 @@ public class YoilTeller {
 		int yyyy= Integer.parseInt(year);
 		int mm= Integer.parseInt(month);
 		int dd= Integer.parseInt(day);
-		
+		 
 		//2.작업 (요일계산)
 		Calendar cal = Calendar.getInstance();
 		cal.set(yyyy, mm-1,dd);
@@ -38,6 +38,17 @@ public class YoilTeller {
 		PrintWriter out = response.getWriter();
 		out.println(year + "년"+month+"월"+day+"일은");
 		out.println(yoil+"요일입니다.");
+		
+	
+//		out.println("<html>");
+//		out.println("<head>");
+//		out.println("</head>");
+//		out.println("<body>");
+//		out.println(year + "년 " + month +"월 "+ day + "일은 ");
+//		out.println(yoil + "요일입니다.");
+//		out.println("</body>");
+//		out.println("</html>");
+		
 		
 		
 	}
