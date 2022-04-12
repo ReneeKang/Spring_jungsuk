@@ -28,3 +28,6 @@
 0:0:0:0:0:0:0:1 - - [13/Apr/2022:00:25:47 +0900] "GET /ch2/getYoilMVC?year=2021&month=10&day=1 HTTP/1.1" 200 114
 127.0.0.1 - - [13/Apr/2022:00:59:44 +0900] "GET / HTTP/1.1" 404 807
 0:0:0:0:0:0:0:1 - - [13/Apr/2022:00:59:44 +0900] "GET /ch2/WEB-INF/classes/com/fastcampus/ch2/MethodInfo.java HTTP/1.1" 404 721
+127.0.0.1 - - [13/Apr/2022:01:21:22 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:01:21:23 +0900] "GET /ch2/WEB-INF/classes/com/fastcampus/ch2/MethodCall2.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [13/Apr/2022:01:21:36 +0900] "GET /ch2/ HTTP/1.1" 200 180

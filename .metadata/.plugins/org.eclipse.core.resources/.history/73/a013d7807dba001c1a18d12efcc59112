@@ -24,9 +24,9 @@ public class MethodCall2 {
 		Model model = new BindingAwareModelMap();
 		System.out.println("[before] model="+model);
 		
-		//4. main메서드를 호출    ***
-		// String viewName = obj.main(2021, 10, 1, model); // 아래 줄과 동일
-		String viewName = (String)main.invoke(obj, new Object[] { 2021, 10, 1, model }); //Reflection API를 이용한 호출	
+		//4. main메서드를 호출
+		// String viewName = obj.main(2021, 10, 1, model);
+		String viewName = (String)main.invoke(obj, new Object[] { 2021, 10, 1, model }); 	
 		System.out.println("viewName="+viewName);	
 		
 		// Model의 내용을 출력 
