@@ -91,7 +91,7 @@ public class MyDispatcherServlet extends HttpServlet {
 		
 		response.setContentType("text/html");
 		response.setCharacterEncoding("utf-8");
-		PrintWriter out = response.getWriter(); //콘솔이아니라 브라우저로 출력되도록.
+		PrintWriter out = response.getWriter();
 		
 		// 1. 뷰의 내용을 한줄씩 읽어서 하나의 문자열로 만든다.
 		Scanner sc = new Scanner(new File(getResolvedViewName(viewName)), "utf-8");
