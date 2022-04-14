@@ -84,3 +84,8 @@
 0:0:0:0:0:0:0:1 - - [14/Apr/2022:19:15:53 +0900] "GET /ch2/WEB-INF/classes/com/fastcampus/ch2/RegisterController.java HTTP/1.1" 404 721
 0:0:0:0:0:0:0:1 - - [14/Apr/2022:19:16:00 +0900] "GET /ch2/register/add HTTP/1.1" 200 3605
 0:0:0:0:0:0:0:1 - - [14/Apr/2022:19:16:11 +0900] "POST /ch2/register/save HTTP/1.1" 405 802
+127.0.0.1 - - [14/Apr/2022:20:00:11 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [14/Apr/2022:20:00:11 +0900] "GET /ch2/WEB-INF/classes/com/fastcampus/ch2/RegisterController.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [14/Apr/2022:20:01:09 +0900] "GET /ch2/register/add HTTP/1.1" 200 3605
+0:0:0:0:0:0:0:1 - - [14/Apr/2022:20:01:26 +0900] "GET /ch2/register/add HTTP/1.1" 200 3605
+0:0:0:0:0:0:0:1 - - [14/Apr/2022:20:02:04 +0900] "POST /ch2/register/save HTTP/1.1" 200 3605
