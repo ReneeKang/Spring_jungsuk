@@ -17,7 +17,6 @@ public class RequestParamTest {
 		return "yoilError";
 	}
 	
-	
 	@RequestMapping("/requestParam")
 	public String main(HttpServletRequest request) {
 		String year = request.getParameter("year");
