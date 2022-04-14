@@ -460,7 +460,7 @@ compile &amp;#39;org.springframework.cloud:spring-cloud-starter-netflix-eureka-c
 &lt;p&gt;These are the requirements for the specific scenario from the report:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Running on JDK 9 or higher&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://docs.spring.io/spring-boot/docs/2.5.x/reference/htmlsingle/#howto.traditional-deployment"&gt;Packaged as a traditional WAR&lt;/a&gt; and deployed in a standalone Tomcat instance. Typical Spring Boot deployments using &lt;a href="https://docs.spring.io/spring-boot/docs/2.5.x/reference/htmlsingle/#features.developing-web-applications.embedded-container"&gt;an embedded Servlet container&lt;/a&gt; or &lt;a href="https://docs.spring.io/spring-boot/docs/2.5.x/reference/htmlsingle/#features.developing-web-applications.reactive-server"&gt;reactive web server&lt;/a&gt; are not impacted.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://docs.spring.io/spring-boot/docs/2.5.x/reference/htmlsingle/#howto.traditional-deployment"&gt;Packaged as a traditional WAR&lt;/a&gt; and deployed in a standalone Servlet container instance (Tomcat, Payara, Glassfish). Typical Spring Boot deployments using &lt;a href="https://docs.spring.io/spring-boot/docs/2.5.x/reference/htmlsingle/#features.developing-web-applications.embedded-container"&gt;an embedded Servlet container&lt;/a&gt; or &lt;a href="https://docs.spring.io/spring-boot/docs/2.5.x/reference/htmlsingle/#features.developing-web-applications.reactive-server"&gt;reactive web server&lt;/a&gt; are not impacted.&lt;/li&gt;
   &lt;li&gt;&lt;code&gt;spring-webmvc&lt;/code&gt; or &lt;code&gt;spring-webflux&lt;/code&gt; dependency.&lt;/li&gt;
   &lt;li&gt;Spring Framework versions 5.3.0 to 5.3.17, 5.2.0 to 5.2.19, and older versions.&lt;/li&gt;
 &lt;/ul&gt;
