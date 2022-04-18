@@ -8,6 +8,10 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="taglibs"/>
+			<item value="taglib"/>
+			<item value="jstl"/>
+			<item value="session"/>
 			<item value="index"/>
 			<item value="param"/>
 			<item value="service"/>
