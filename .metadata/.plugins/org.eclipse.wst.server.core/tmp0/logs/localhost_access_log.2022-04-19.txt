@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [19/Apr/2022:19:45:53 +0900] "GET /ch2/WEB-INF/classes/com/fastcampus/ch2/GlobalCatcher.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [19/Apr/2022:19:46:00 +0900] "GET /ch2/ex3 HTTP/1.1" 500 4084
+127.0.0.1 - - [19/Apr/2022:20:07:44 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [19/Apr/2022:20:07:45 +0900] "GET /ch2/WEB-INF/classes/com/fastcampus/ch2/ExceptionController.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [19/Apr/2022:20:08:24 +0900] "GET /ch2/ex HTTP/1.1" 200 5070
+0:0:0:0:0:0:0:1 - - [19/Apr/2022:20:08:33 +0900] "GET /ch2/ex2 HTTP/1.1" 200 5081
+0:0:0:0:0:0:0:1 - - [19/Apr/2022:20:08:43 +0900] "GET /ch2/ex HTTP/1.1" 200 5070
+127.0.0.1 - - [19/Apr/2022:20:25:24 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [19/Apr/2022:20:25:24 +0900] "GET /ch2/WEB-INF/classes/com/fastcampus/ch2/ExceptionController.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [19/Apr/2022:20:25:32 +0900] "GET /ch2/ex HTTP/1.1" 200 4075
