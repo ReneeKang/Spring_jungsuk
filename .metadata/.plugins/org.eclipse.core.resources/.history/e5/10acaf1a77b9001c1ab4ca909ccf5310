@@ -1,7 +1,0 @@
-package com.fastcampus.ch2;
-
-public class MyDate {
-	private int year;
-	private int month;
-	private int day;
-}

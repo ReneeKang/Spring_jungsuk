@@ -8,3 +8,6 @@
 127.0.0.1 - - [19/Apr/2022:20:25:24 +0900] "GET / HTTP/1.1" 404 807
 0:0:0:0:0:0:0:1 - - [19/Apr/2022:20:25:24 +0900] "GET /ch2/WEB-INF/classes/com/fastcampus/ch2/ExceptionController.java HTTP/1.1" 404 721
 0:0:0:0:0:0:0:1 - - [19/Apr/2022:20:25:32 +0900] "GET /ch2/ex HTTP/1.1" 200 4075
+127.0.0.1 - - [19/Apr/2022:20:26:32 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [19/Apr/2022:20:26:33 +0900] "GET /ch2/WEB-INF/classes/com/fastcampus/ch2/ExceptionController.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [19/Apr/2022:20:26:35 +0900] "GET /ch2/ex HTTP/1.1" 200 5070

@@ -19,7 +19,7 @@ public class HomeController {
 	//URL과 메서드 연결 (맵핑,mapping)
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home() {
-		return "index2";
+		return "index";
 	}
 	
 }
