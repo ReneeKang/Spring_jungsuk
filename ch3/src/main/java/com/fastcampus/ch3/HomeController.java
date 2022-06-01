@@ -14,7 +14,7 @@ import org.springframework.web.context.support.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-@Controller
+//@Controller
 public class HomeController {
 	@Autowired
 	WebApplicationContext servletAC; // Servlet AC 주입받을수있다. 컨트롤러에 iv선언하고 @Autowired선언하면 주입됨.

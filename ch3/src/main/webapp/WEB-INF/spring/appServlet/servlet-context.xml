@@ -21,6 +21,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 
+	<!-- conpoment-scan 에 base-package를 지정해주면 그 아래 서브패키지도 다 검색-->
 	<context:component-scan base-package="com.fastcampus.ch3">
 		<context:exclude-filter type="regex" expression="com.fastcampus.ch3.diCopy*.*"/>
 	</context:component-scan>
