@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <title>fastcampus</title>
     <link rel="stylesheet" href="<c:url value='/css/menu.css'/>">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 </head>
 <body>
     <div id="menu">
@@ -32,5 +33,14 @@
             <button type="button" id="listBtn" class="btn">목록</button>
         </form>
     </div>
+
+<script>
+    $(document).ready(function(){ //main()
+        //html내용읽고 작업수행. 얘가 준비ready되면~ 실행
+        $('#listBtn').on("click",function(){
+           location.href = "<c:url value='/board/list'/>?page=${page}&pageSize=${pageSize}";
+        });
+    });
+</script>
 </body>
 </html>

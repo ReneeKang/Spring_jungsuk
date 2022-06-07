@@ -30,7 +30,6 @@ public class BoardController {
             BoardDto boardDto = boardService.read(bno);
 //            m.addAttribute("boardDto",boardDto); //아래문장과 동일
             m.addAttribute(boardDto); //이름생략시 타입첫글자를 소문하로한걸 이름으로 저장
-
         } catch (Exception e) {
             e.printStackTrace();
         }
