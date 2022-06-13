@@ -100,7 +100,6 @@ public class BoardController {
 
         try {
             int totalCnt = boardService.getSearchResultCnt(sc);
-
             PageHandler pageHandler = new PageHandler(totalCnt, sc);
 
             List<BoardDto> list = boardService.getSearchResultPage(sc);
