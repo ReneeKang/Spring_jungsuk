@@ -13,7 +13,7 @@ public class BoardServiceImpl implements BoardService {
     BoardDao boardDao;
 
     @Override
-    public List<BoardDto> getSearchResultPage(SearchCondition sc)  throws Exception{
+    public List<BoardDto> getSearchResultPage(SearchCondition sc) throws Exception{
         return boardDao.searchSelectPage(sc);
     }
 
