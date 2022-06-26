@@ -4,7 +4,7 @@
   <title>Title</title>
   <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 </head>
-<body>dhsm
+<body>
 <h2>{name:"abc", age:10}</h2>
 <button id="sendBtn" type="button">SEND</button>
 <h2>Data From Server :</h2>
